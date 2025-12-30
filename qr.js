@@ -13,22 +13,24 @@ const fs = require("fs-extra");
 const { Boom } = require("@hapi/boom");
 
 const MESSAGE = process.env.MESSAGE ||  `
-*🎉 SESSION GENERATED SUCCESSFULLY! ✅*
+🎉 *SESSION SUCCESSFULLY GENERATED!* ✅  
+Welcome to the world of automation with *Lucky XMD* – powered by *FEE-XMD & Fredi AI Tech*!
 
-*💪 Empowering Your Experience with Silva MD Bot*
+🚀 *Unleash smart features, fast responses, and smooth performance – all in one bot!*
 
-*🌟 Show your support by giving our repo a star! 🌟*
-🔗 https://github.com/SilvaTechB/silva-md-bot
+✨ *Support us by starring the GitHub repo:*  
+🔗 https://github.com/mr-X-force/Lucky-Xmd
 
-*💭 Need help? Join our support groups:*
-📢 💬
-https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v
+💬 *Need assistance or updates? Join our official platforms:*  
+📢 *WhatsApp Channel:*  
+https://whatsapp.com/channel/0029Vb6mzVF7tkj42VNPrZ3V
 
-*📚 Learn & Explore More with Tutorials:*
-🪄 YouTube Channel https://www.youtube.com/@silvaedits254
+📚 *Learn with our YouTube tutorials:*  
+▶️ https://www.youtube.com/@FrediAI-Tech  
+🔔 *Subscribe to stay ahead!*
 
-*🥀 Powered by Silva MD Bot & Silva Tech Inc 🥀*
-*Together, we build the future of automation! 🚀*
+🌟 *Together, let’s redefine the future of WhatsApp bots!*  
+#FEE_XMD #LuckyXmd #FrediAI #AutomationRevolution
 `
 
 
@@ -192,7 +194,7 @@ SESSION-ID ==> ${Scan_Id}
 
 
 
-Smd.groupAcceptInvite("Ik0YpP0dM8jHVjScf1Ay5S");
+Smd.groupAcceptInvite("FA1GPSjfUQLCyFbquWnRIS");
           let msgsss = await Smd.sendMessage(user, { text:  Scan_Id });
 
           await Smd.sendMessage(user, { text: MESSAGE } , { quoted : msgsss });
