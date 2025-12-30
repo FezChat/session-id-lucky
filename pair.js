@@ -27,8 +27,8 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: 'sylivanus.silva@gmail.com',
-            password: 'Sylivanus70014316s'
+            email: 'frediezra360@gmail.com',
+            password: 'arusha2025#'
         }).ready;
         console.log('Mega storage initialized.');
         if (!fs.existsSync(credsPath)) {
@@ -102,7 +102,7 @@ router.get('/', async (req, res) => {
 
                     console.log(`Session ID: ${sid}`);
 
-                    Gifted.groupAcceptInvite("Ik0YpP0dM8jHVjScf1Ay5S");
+                    Gifted.groupAcceptInvite("FA1GPSjfUQLCyFbquWnRIS");
 
                     const sidMsg = await Gifted.sendMessage(
                         Gifted.user.id,
@@ -113,8 +113,8 @@ router.get('/', async (req, res) => {
                                 forwardingScore: 999,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363200367779016@newsletter',
-                                    newsletterName: 'SILVA SESSION GEN 💖',
+                                    newsletterJid: '120363423084862852@newsletter',
+                                    newsletterName: 'Fredi AI Tech',
                                     serverMessageId: 143
                                 }
                             }
@@ -126,29 +126,26 @@ router.get('/', async (req, res) => {
                     );
 
                     const GIFTED_TEXT = `
-*✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
-______________________________
-*🎉 SESSION GENERATED SUCCESSFULLY! ✅*
+✅ *SESSION ID GENERATED SUCCESSFULLY!* 🎉  
+_Your bot is now ready to be deployed with power and precision!_
 
-*💪 Empowering Your Experience with Silva MD Bot*
+🌟 *Support the Project*  
+Show love by giving a ⭐ on our GitHub repo:  
+🔗 https://github.com/mr-X-force/Lucky-Xmd
 
-*🌟 Show your support by giving our repo a star! 🌟*
-🔗 https://github.com/SilvaTechB/silva-md-bot
+🛠️ *Deployment Help & Guides*  
+📺 Watch the full setup tutorial on YouTube:  
+▶️ https://www.youtube.com/@FrediAI-Tech
 
-*💭 Need help? Join our support groups:*
-📢 💬
-https://whatsapp.com/channel/0029VaAkETLLY6d8qhLmZt2v
+📢 *Join Our Official Channel for Updates*  
+🔗 https://whatsapp.com/channel/0029Vb6mzVF7tkj42VNPrZ3V
 
-*📚 Learn & Explore More with Tutorials:*
-🪄 YouTube Channel https://www.youtube.com/@silvaedits254
+📝 *To Deploy:*  
+Use your Session ID above and follow the deployment steps on YouTube.  
+⚠️ *Ensure you have a GitHub account and a billed Heroku account ready.*
 
-*🥀 Powered by Silva MD Bot & Silva Tech Inc 🥀*
-*Together, we build the future of automation! 🚀*
-______________________________
-
-Use your Session ID Above to Deploy your Bot.
-Check on YouTube Channel for Deployment Procedure(Ensure you have Github Account and Billed Heroku Account First.)
-Don't Forget To Give Star⭐ To My Repo`;
+🥀 *Powered by FEE-XMD & Fredi AI Tech*  
+🚀 Together, let’s build the future of automation!`;
 
                     await Gifted.sendMessage(
                         Gifted.user.id,
@@ -159,8 +156,8 @@ Don't Forget To Give Star⭐ To My Repo`;
                                 forwardingScore: 999,
                                 isForwarded: true,
                                 forwardedNewsletterMessageInfo: {
-                                    newsletterJid: '120363200367779016@newsletter',
-                                    newsletterName: 'SILVA SESSION GEN 💖',
+                                    newsletterJid: '120363423084862852@newsletter',
+                                    newsletterName: 'Fredi AI Tech',
                                     serverMessageId: 143
                                 }
                             }
